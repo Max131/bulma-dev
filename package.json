@@ -4,9 +4,9 @@
   "description": "Bulma dev test",
   "main": "sass/styles.scss",
   "scripts": {
-	"css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
-  	"css-watch": "npm run css-build -- --watch",
-  	"start": "npm run css-watch"
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "author": "Me",
   "license": "ISC",
